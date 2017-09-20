@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0201A5041F72AB9C00C11814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A5031F72AB9C00C11814 /* AppDelegate.m */; };
+		0201A5071F72AB9C00C11814 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A5061F72AB9C00C11814 /* ViewController.m */; };
+		0201A50A1F72AB9C00C11814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201A5081F72AB9C00C11814 /* Main.storyboard */; };
+		0201A50C1F72AB9C00C11814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0201A50B1F72AB9C00C11814 /* Assets.xcassets */; };
+		0201A50F1F72AB9C00C11814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201A50D1F72AB9C00C11814 /* LaunchScreen.storyboard */; };
+		0201A5121F72AB9C00C11814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A5111F72AB9C00C11814 /* main.m */; };
+		0201A51C1F72AB9C00C11814 /* SCYPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A51B1F72AB9C00C11814 /* SCYPlayerTests.m */; };
+		0201A5271F72AB9C00C11814 /* SCYPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A5261F72AB9C00C11814 /* SCYPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0201A5181F72AB9C00C11814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0201A4F71F72AB9C00C11814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0201A4FE1F72AB9C00C11814;
+			remoteInfo = SCYPlayer;
+		};
+		0201A5231F72AB9C00C11814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0201A4F71F72AB9C00C11814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0201A4FE1F72AB9C00C11814;
+			remoteInfo = SCYPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0201A4FF1F72AB9C00C11814 /* SCYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0201A5021F72AB9C00C11814 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0201A5031F72AB9C00C11814 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0201A5051F72AB9C00C11814 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0201A5061F72AB9C00C11814 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0201A5091F72AB9C00C11814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0201A50B1F72AB9C00C11814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0201A50E1F72AB9C00C11814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0201A5101F72AB9C00C11814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0201A5111F72AB9C00C11814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0201A5171F72AB9C00C11814 /* SCYPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCYPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0201A51B1F72AB9C00C11814 /* SCYPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCYPlayerTests.m; sourceTree = "<group>"; };
+		0201A51D1F72AB9C00C11814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0201A5221F72AB9C00C11814 /* SCYPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCYPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0201A5261F72AB9C00C11814 /* SCYPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCYPlayerUITests.m; sourceTree = "<group>"; };
+		0201A5281F72AB9C00C11814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0201A4FC1F72AB9C00C11814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201A5141F72AB9C00C11814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201A51F1F72AB9C00C11814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0201A4F61F72AB9C00C11814 = {
+			isa = PBXGroup;
+			children = (
+				0201A5011F72AB9C00C11814 /* SCYPlayer */,
+				0201A51A1F72AB9C00C11814 /* SCYPlayerTests */,
+				0201A5251F72AB9C00C11814 /* SCYPlayerUITests */,
+				0201A5001F72AB9C00C11814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0201A5001F72AB9C00C11814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0201A4FF1F72AB9C00C11814 /* SCYPlayer.app */,
+				0201A5171F72AB9C00C11814 /* SCYPlayerTests.xctest */,
+				0201A5221F72AB9C00C11814 /* SCYPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0201A5011F72AB9C00C11814 /* SCYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0201A5021F72AB9C00C11814 /* AppDelegate.h */,
+				0201A5031F72AB9C00C11814 /* AppDelegate.m */,
+				0201A5051F72AB9C00C11814 /* ViewController.h */,
+				0201A5061F72AB9C00C11814 /* ViewController.m */,
+				0201A5081F72AB9C00C11814 /* Main.storyboard */,
+				0201A50B1F72AB9C00C11814 /* Assets.xcassets */,
+				0201A50D1F72AB9C00C11814 /* LaunchScreen.storyboard */,
+				0201A5101F72AB9C00C11814 /* Info.plist */,
+				0201A5111F72AB9C00C11814 /* main.m */,
+			);
+			path = SCYPlayer;
+			sourceTree = "<group>";
+		};
+		0201A51A1F72AB9C00C11814 /* SCYPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0201A51B1F72AB9C00C11814 /* SCYPlayerTests.m */,
+				0201A51D1F72AB9C00C11814 /* Info.plist */,
+			);
+			path = SCYPlayerTests;
+			sourceTree = "<group>";
+		};
+		0201A5251F72AB9C00C11814 /* SCYPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0201A5261F72AB9C00C11814 /* SCYPlayerUITests.m */,
+				0201A5281F72AB9C00C11814 /* Info.plist */,
+			);
+			path = SCYPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0201A4FE1F72AB9C00C11814 /* SCYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0201A52B1F72AB9C00C11814 /* Build configuration list for PBXNativeTarget "SCYPlayer" */;
+			buildPhases = (
+				0201A4FB1F72AB9C00C11814 /* Sources */,
+				0201A4FC1F72AB9C00C11814 /* Frameworks */,
+				0201A4FD1F72AB9C00C11814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCYPlayer;
+			productName = SCYPlayer;
+			productReference = 0201A4FF1F72AB9C00C11814 /* SCYPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0201A5161F72AB9C00C11814 /* SCYPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0201A52E1F72AB9C00C11814 /* Build configuration list for PBXNativeTarget "SCYPlayerTests" */;
+			buildPhases = (
+				0201A5131F72AB9C00C11814 /* Sources */,
+				0201A5141F72AB9C00C11814 /* Frameworks */,
+				0201A5151F72AB9C00C11814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0201A5191F72AB9C00C11814 /* PBXTargetDependency */,
+			);
+			name = SCYPlayerTests;
+			productName = SCYPlayerTests;
+			productReference = 0201A5171F72AB9C00C11814 /* SCYPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0201A5211F72AB9C00C11814 /* SCYPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0201A5311F72AB9C00C11814 /* Build configuration list for PBXNativeTarget "SCYPlayerUITests" */;
+			buildPhases = (
+				0201A51E1F72AB9C00C11814 /* Sources */,
+				0201A51F1F72AB9C00C11814 /* Frameworks */,
+				0201A5201F72AB9C00C11814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0201A5241F72AB9C00C11814 /* PBXTargetDependency */,
+			);
+			name = SCYPlayerUITests;
+			productName = SCYPlayerUITests;
+			productReference = 0201A5221F72AB9C00C11814 /* SCYPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0201A4F71F72AB9C00C11814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = sauchye.com;
+				TargetAttributes = {
+					0201A4FE1F72AB9C00C11814 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					0201A5161F72AB9C00C11814 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0201A4FE1F72AB9C00C11814;
+					};
+					0201A5211F72AB9C00C11814 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0201A4FE1F72AB9C00C11814;
+					};
+				};
+			};
+			buildConfigurationList = 0201A4FA1F72AB9C00C11814 /* Build configuration list for PBXProject "SCYPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0201A4F61F72AB9C00C11814;
+			productRefGroup = 0201A5001F72AB9C00C11814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0201A4FE1F72AB9C00C11814 /* SCYPlayer */,
+				0201A5161F72AB9C00C11814 /* SCYPlayerTests */,
+				0201A5211F72AB9C00C11814 /* SCYPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0201A4FD1F72AB9C00C11814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201A50F1F72AB9C00C11814 /* LaunchScreen.storyboard in Resources */,
+				0201A50C1F72AB9C00C11814 /* Assets.xcassets in Resources */,
+				0201A50A1F72AB9C00C11814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201A5151F72AB9C00C11814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201A5201F72AB9C00C11814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0201A4FB1F72AB9C00C11814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201A5071F72AB9C00C11814 /* ViewController.m in Sources */,
+				0201A5121F72AB9C00C11814 /* main.m in Sources */,
+				0201A5041F72AB9C00C11814 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201A5131F72AB9C00C11814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201A51C1F72AB9C00C11814 /* SCYPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201A51E1F72AB9C00C11814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201A5271F72AB9C00C11814 /* SCYPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0201A5191F72AB9C00C11814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0201A4FE1F72AB9C00C11814 /* SCYPlayer */;
+			targetProxy = 0201A5181F72AB9C00C11814 /* PBXContainerItemProxy */;
+		};
+		0201A5241F72AB9C00C11814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0201A4FE1F72AB9C00C11814 /* SCYPlayer */;
+			targetProxy = 0201A5231F72AB9C00C11814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0201A5081F72AB9C00C11814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0201A5091F72AB9C00C11814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0201A50D1F72AB9C00C11814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0201A50E1F72AB9C00C11814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0201A5291F72AB9C00C11814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0201A52A1F72AB9C00C11814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0201A52C1F72AB9C00C11814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCYPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sauchye.SCYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0201A52D1F72AB9C00C11814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCYPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sauchye.SCYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0201A52F1F72AB9C00C11814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sauchye.SCYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCYPlayer.app/SCYPlayer";
+			};
+			name = Debug;
+		};
+		0201A5301F72AB9C00C11814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sauchye.SCYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCYPlayer.app/SCYPlayer";
+			};
+			name = Release;
+		};
+		0201A5321F72AB9C00C11814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCYPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sauchye.SCYPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SCYPlayer;
+			};
+			name = Debug;
+		};
+		0201A5331F72AB9C00C11814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCYPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sauchye.SCYPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SCYPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0201A4FA1F72AB9C00C11814 /* Build configuration list for PBXProject "SCYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201A5291F72AB9C00C11814 /* Debug */,
+				0201A52A1F72AB9C00C11814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0201A52B1F72AB9C00C11814 /* Build configuration list for PBXNativeTarget "SCYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201A52C1F72AB9C00C11814 /* Debug */,
+				0201A52D1F72AB9C00C11814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0201A52E1F72AB9C00C11814 /* Build configuration list for PBXNativeTarget "SCYPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201A52F1F72AB9C00C11814 /* Debug */,
+				0201A5301F72AB9C00C11814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0201A5311F72AB9C00C11814 /* Build configuration list for PBXNativeTarget "SCYPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201A5321F72AB9C00C11814 /* Debug */,
+				0201A5331F72AB9C00C11814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0201A4F71F72AB9C00C11814 /* Project object */;
+}
