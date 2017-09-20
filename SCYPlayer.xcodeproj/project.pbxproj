@@ -15,6 +15,9 @@
 		0201A5121F72AB9C00C11814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A5111F72AB9C00C11814 /* main.m */; };
 		0201A51C1F72AB9C00C11814 /* SCYPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A51B1F72AB9C00C11814 /* SCYPlayerTests.m */; };
 		0201A5271F72AB9C00C11814 /* SCYPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A5261F72AB9C00C11814 /* SCYPlayerUITests.m */; };
+		0201A5371F72ABE200C11814 /* SCYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A5361F72ABE200C11814 /* SCYPlayer.m */; };
+		0201A53A1F72AD4900C11814 /* AudioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201A5391F72AD4900C11814 /* AudioInfo.m */; };
+		0201A53E1F72C14C00C11814 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0201A53D1F72C14C00C11814 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		0201A5221F72AB9C00C11814 /* SCYPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCYPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0201A5261F72AB9C00C11814 /* SCYPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCYPlayerUITests.m; sourceTree = "<group>"; };
 		0201A5281F72AB9C00C11814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0201A5351F72ABE200C11814 /* SCYPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCYPlayer.h; sourceTree = "<group>"; };
+		0201A5361F72ABE200C11814 /* SCYPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCYPlayer.m; sourceTree = "<group>"; };
+		0201A5381F72AD4900C11814 /* AudioInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioInfo.h; sourceTree = "<group>"; };
+		0201A5391F72AD4900C11814 /* AudioInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioInfo.m; sourceTree = "<group>"; };
+		0201A53B1F72C14C00C11814 /* SCYPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SCYPlayer.entitlements; sourceTree = "<group>"; };
+		0201A53D1F72C14C00C11814 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0201A53E1F72C14C00C11814 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,7 @@
 				0201A51A1F72AB9C00C11814 /* SCYPlayerTests */,
 				0201A5251F72AB9C00C11814 /* SCYPlayerUITests */,
 				0201A5001F72AB9C00C11814 /* Products */,
+				0201A53C1F72C14C00C11814 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +112,14 @@
 		0201A5011F72AB9C00C11814 /* SCYPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				0201A53B1F72C14C00C11814 /* SCYPlayer.entitlements */,
+				0201A5341F72ABD000C11814 /* SCYPlayer */,
 				0201A5021F72AB9C00C11814 /* AppDelegate.h */,
 				0201A5031F72AB9C00C11814 /* AppDelegate.m */,
 				0201A5051F72AB9C00C11814 /* ViewController.h */,
 				0201A5061F72AB9C00C11814 /* ViewController.m */,
+				0201A5381F72AD4900C11814 /* AudioInfo.h */,
+				0201A5391F72AD4900C11814 /* AudioInfo.m */,
 				0201A5081F72AB9C00C11814 /* Main.storyboard */,
 				0201A50B1F72AB9C00C11814 /* Assets.xcassets */,
 				0201A50D1F72AB9C00C11814 /* LaunchScreen.storyboard */,
@@ -130,6 +145,23 @@
 				0201A5281F72AB9C00C11814 /* Info.plist */,
 			);
 			path = SCYPlayerUITests;
+			sourceTree = "<group>";
+		};
+		0201A5341F72ABD000C11814 /* SCYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0201A5351F72ABE200C11814 /* SCYPlayer.h */,
+				0201A5361F72ABE200C11814 /* SCYPlayer.m */,
+			);
+			path = SCYPlayer;
+			sourceTree = "<group>";
+		};
+		0201A53C1F72C14C00C11814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0201A53D1F72C14C00C11814 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +232,11 @@
 					0201A4FE1F72AB9C00C11814 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 					0201A5161F72AB9C00C11814 = {
 						CreatedOnToolsVersion = 9.0;
@@ -266,7 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0201A5071F72AB9C00C11814 /* ViewController.m in Sources */,
+				0201A53A1F72AD4900C11814 /* AudioInfo.m in Sources */,
 				0201A5121F72AB9C00C11814 /* main.m in Sources */,
+				0201A5371F72ABE200C11814 /* SCYPlayer.m in Sources */,
 				0201A5041F72AB9C00C11814 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +469,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SCYPlayer/SCYPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTN6THCGH2;
 				INFOPLIST_FILE = SCYPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sauchye.SCYPlayer;
@@ -443,7 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SCYPlayer/SCYPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTN6THCGH2;
 				INFOPLIST_FILE = SCYPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sauchye.SCYPlayer;
